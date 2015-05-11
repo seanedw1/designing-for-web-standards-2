@@ -1,0 +1,200 @@
+
+
+
+
+
+/*===============  ****** head/body ****** ======================*/
+body{
+	font: 62.5%/1.5 'Helvetica Neue', ariel, Helvetica,sans-serif;
+	color: #3e3e3e;
+}
+
+#page-wrap{
+	width: 1000px;
+	margin:0 auto;
+	max-width: 96%; /* 600/1230 */
+	overflow: auto;
+}
+/*===============  ****** navigation ****** ======================*/
+
+nav ul{
+	list-style: none;
+	display: inline;
+	float: right;
+
+}
+
+nav ul li{
+	display: inline;
+	padding-right: 5px;
+}
+
+nav ul a{
+	color:#41deac;
+}
+
+ #galleria{ width: 100%; height: 100%; background: #000; margin: 0 auto; padding-top:20px;}
+
+#header{
+	float: right;
+	margin: 0 auto;
+
+}
+
+/*===============  ****** content ****** ======================*/
+#container {
+    width:100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#container div {
+    float:left;
+    width:300px;
+    height: 500px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+
+#top{
+	clear: both;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	width: 100%;
+	height: 420px;
+	background-color: black;
+}
+
+.bottom{
+		padding-top: 45px;
+}
+
+
+h1{
+	font-size: 3.8em; /* 38px 38px/ 14px =2.714em */
+	width:48780487804878%; /* 600/1230 */
+	margin-top:0;
+}
+
+h2{
+font-size: 3.1em; /* 31px*/
+}
+
+.center{
+  border-right: 1px solid black;
+padding-right: 7px;
+}
+
+h3{
+	text-align: center;
+	color:#41deac;
+	font-size: 2.7em; /* 27px*/
+}
+
+p{
+	font-size: 1.8em; /* 18px*/ 
+	clear: both;
+}
+
+h1 a{
+	font-size: .394em; /* 15px*/
+}
+
+img{
+	max-width: 100%;
+}
+
+a{ 	
+	font-size: 1.5em; /* 15px*/
+	text-decoration: none;
+}
+
+em, strong{
+	font-size: 1em; /* 18px/10px */
+}
+
+/*===============  ****** image grid ****** ======================*/
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}	
+
+div.img img {
+    display: inline;
+    margin: 5px;
+}
+
+div.img a:hover img {
+    border: 1px solid #0000ff;
+}
+
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
+}
+
+/*===============  ****** footer  ****** ======================*/
+footer{
+	width: 100%;
+	height:100px;
+	background-color: black;
+	margin-top: 25px;
+	text-align: center;
+	color:#41deac;
+
+
+}
+
+footer p{
+	padding-top:50px;
+	color:#41deac;
+}
+
+/*==========  ****** media quaries ****** ======================*/
+
+/* media quaries */
+
+@media screen and (min-width: 800px ) and (max-width: 1010px){
+		body{background-color: fuchsia;}
+		h1{width: 100%;}
+		nav ul li{color:#41deac;}
+
+}
+
+
+@media only screen and (min-width: 400px ) and (max-width: 800px){
+			h1{width: 100%;}
+			#container{}
+			#container div{}
+
+
+}
+
+@media screen and (max-width: 400px ){
+	h1{width: 100%;}
+	#container{}
+			#container div{}
+			footer{ width: 100%; background-color: black; margin-top: 25px; text-align: center; color:#41deac;}
+			footer p{ padding-top:50px; color:#41deac;}
+			nav ul li a{color:#41deac;}
+			nav ul	{width: 100%;}
+					
+}
+
+
+
+
+
+
+
+
+
+

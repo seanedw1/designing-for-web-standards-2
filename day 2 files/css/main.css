@@ -1,0 +1,95 @@
+body{
+	font: 62.5%/1.5 'Helvetica Neue', ariel, Helvetica,sans-serif;
+	color: #3e3e3e;
+}
+
+h1{
+	font-size: 3.8em; /* 38px 38px/ 14px =2.714em */
+	width:48780487804878%; /* 600/1230 */
+	margin-top:0;
+}
+
+h2{
+font-size: 3.1em; /* 31px*/
+}
+
+h3{
+	font-size: 2.7em; /* 27px*/
+}
+
+p,{
+	font-size: 1.8em; /* 18px*/ 
+}
+
+h1 a{
+	font-size: .394em; /* 15px*/
+}
+
+img{
+	max-width: 100%;
+}
+
+a{
+	border-bottom: 1px solid #00f;
+	font-size: 1.5em; /* 15px*/
+	text-decoration: none;
+}
+
+em, strong{
+	font-size: 1em; /* 18px/10px */
+}
+
+section{
+	float: left;
+	width: 31.707317073%; /* 390px/1230px */
+	margin:.81300813%; /* 10px/1230px */
+}
+
+footer{
+	clear:left;
+}
+
+/*===============  ****** site ****** ======================*/
+
+#page-wrap{
+	margin:0 auto;
+	max-width: 96%; /* 600/1230 */
+}
+
+
+
+/*===============  ****** site ****** ======================*/
+/*===============  ****** navigation ****** ======================*/
+
+/*==========  ****** media quaries ****** ======================*/
+
+/* media quaries */
+
+@media screen and (min-width: 800px ) and (max-width: 1010px){
+		body{background-color: fuchsia;}
+		h1{width: 100%;}
+
+}
+
+
+@media only screen and (min-width: 480px ) and (max-width: 767px){
+	body{background-color: teal;}
+			h1{width: 100%;}
+			section{width: 100%; float: none;}
+
+}
+
+@media screen and (max-width: 479px ){
+	h1{width: 100%;}
+	section{width: 100%; float: none;}
+}
+
+
+
+
+
+
+
+
+
+
