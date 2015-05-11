@@ -1,0 +1,27 @@
+#wrapper{
+	width:960px;
+	margin: 0 auto;
+}
+
+#header{
+	padding-bottom: 1px;
+	background-color:#5174d5;
+	clear: both;
+}
+
+#sidebar{
+	width: 367px;
+	background-color:#e3e3e3;
+	float: left;
+}
+
+#main{
+	width: 593px;
+	background-color: #a9a9a9;
+	float: left;
+}
+
+#footer{
+	background-color: #666666;
+clear: both;
+}

@@ -50,6 +50,9 @@ nav ul a{
     margin-left: 10px;
 }
 
+#container div img{
+	border: 1px solid black;
+}
 
 #top{
 	clear: both;
