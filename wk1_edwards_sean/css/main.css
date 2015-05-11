@@ -1,9 +1,4 @@
-
-
-
-
-
-/*===============  ****** head/body ****** ======================*/
+/*===============  ****** body ****** ======================*/
 body{
 	font: 62.5%/1.5 'Helvetica Neue', ariel, Helvetica,sans-serif;
 	color: #3e3e3e;
@@ -16,6 +11,12 @@ body{
 	overflow: auto;
 }
 /*===============  ****** navigation ****** ======================*/
+
+#header{
+	float: right;
+	margin: 0 auto;
+
+}
 
 nav ul{
 	list-style: none;
@@ -34,15 +35,6 @@ nav ul a{
 		font-size: 1.5em; /* 15px*/
 
 }
-
- #galleria{ width: 100%; height: 100%; background: #000; margin: 0 auto; padding-top:20px;}
-
-#header{
-	float: right;
-	margin: 0 auto;
-
-}
-
 /*===============  ****** content ****** ======================*/
 #container {
     width:100%;
@@ -72,6 +64,10 @@ nav ul a{
 		padding-top: 45px;
 }
 
+.center{
+  border-right: 1px solid black;
+padding-right: 7px;
+}
 
 h1{
 	font-size: 3.8em; /* 38px 38px/ 14px =2.714em */
@@ -81,11 +77,6 @@ h1{
 
 h2{
 font-size: 3.1em; /* 31px*/
-}
-
-.center{
-  border-right: 1px solid black;
-padding-right: 7px;
 }
 
 h3{
@@ -109,36 +100,14 @@ img{
 
 a{ text-decoration: none;
 }
-
-em, strong{
-	font-size: 1em; /* 18px/10px */
-}
-
-/*===============  ****** image grid ****** ======================*/
-
-div.img {
-    margin: 5px;
-    padding: 5px;
-    height: auto;
-    width: auto;
-    float: left;
-    text-align: center;
-}	
-
-div.img img {
-    display: inline;
-    margin: 5px;
-}
-
-div.img a:hover img {
-    border: 1px solid #0000ff;
-}
-
-div.desc {
-  text-align: center;
-  font-weight: normal;
-  width: 120px;
-  margin: 5px;
+/*===============  ****** image gallery  ****** ======================*/
+ 
+ #galleria{
+  width: 100%; 
+  height: 100%; 
+  background: #000; 
+  margin: 0 auto; 
+  padding-top:20px;
 }
 
 /*===============  ****** footer  ****** ======================*/
@@ -149,8 +118,6 @@ footer{
 	margin-top: 25px;
 	text-align: center;
 	color:#41deac;
-
-
 }
 
 footer p{
