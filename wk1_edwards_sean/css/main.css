@@ -130,7 +130,6 @@ footer p{
 /* media quaries */
 
 @media screen and (min-width: 800px ) and (max-width: 1010px){
-		body{background-color: fuchsia;}
 		h1{width: 100%;}
 		nav ul li{color:#41deac;}
 

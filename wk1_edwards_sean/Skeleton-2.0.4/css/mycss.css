@@ -67,9 +67,30 @@ h1{
 }
 
 
-/* form
+/* img
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+img.displayed{
+    display: block;
+    width: 90%;
+    margin:0 auto;
+}
 
+
+#p7{
+display:block;
+float:left;
+margin-right:5px;
+}
+
+#p7:active{ 
+    transform: scale(2.5,2.5); 
+    padding:5px;
+    }
+
+li{
+  list-style:none;
+list-style-image: url('Skeleton-2.0.4/images/facicon.png');
+}
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -204,9 +225,9 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 /* Larger than phablet */
 @media (min-width: 550px) {
-  h1 { font-size: 5.0rem; }
+  h1 { font-size: 5.0rem;text-align: center; }
   h2 { font-size: 4.2rem; }
-  h3 { font-size: 3.6rem; }
+  h3 { font-size: 3.6rem; text-align: center;}
   h4 { font-size: 3.0rem; }
   h5 { font-size: 2.4rem; }
   h6 { font-size: 1.5rem; }
@@ -363,7 +384,7 @@ ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
 li {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem; text-align: center;}
 
 
 /* Code
