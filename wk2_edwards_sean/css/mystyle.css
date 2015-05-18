@@ -11,21 +11,38 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  padding-top: 70px;
+  padding-top:70px;
   margin: 0;
-    background-image:url("../img/bk.jpg"); 
+    background-image:url("../img/bk.png"); 
     margin-bottom: 30px;
 
 }
 
 #mainct{
-  overflow: hidden;
   margin: 0 auto;
-width: 75%;
+width: 85%;
   background-color: white;
   border: 2px solid black;
   -webkit-box-shadow: 0 0 10px black;
   box-shadow: 0 0 10px 
+}
+
+#contact{
+  margin: 0 auto;
+width: 65%;
+}
+#about{
+  margin-top: 25px;
+  overflow: auto;
+
+}
+.pink{
+  color: #ff0080;
+  text-align:center;
+}
+
+#welcome{
+  color: #ff0080;
 }
 
 #bottom{
@@ -38,7 +55,8 @@ width: 75%;
   margin: 0 auto;
 }
 
-#serv{
+#follow{
+  margin-bottom: 25px;
 }
 
 #footer{
@@ -87,6 +105,7 @@ template {
 }
 a {
   background-color: transparent;
+    text-decoration: none;
 }
 a:active,
 a:hover {
@@ -4911,7 +4930,7 @@ a.badge:focus {
   background-color: #eee;
   background-image:url("../img/jumbo.jpg");
   background-size: cover;
-  color: white;
+  color:white;
 
 }
 .jumbotron h1,
