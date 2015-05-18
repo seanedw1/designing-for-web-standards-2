@@ -38,6 +38,9 @@ width: 75%;
   margin: 0 auto;
 }
 
+#serv{
+}
+
 #footer{
 height: 50px;
   background-color: #222;
@@ -49,6 +52,7 @@ height: 50px;
 
 hr{
   width: 70%;
+  background-color:black;
 }
 
 article,
