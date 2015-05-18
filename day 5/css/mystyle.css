@@ -1,0 +1,42 @@
+ul{
+	list-style: none;
+	padding-left: 0;
+	overflow: hidden;
+	width: 35%;
+}
+
+
+ul li{
+	width: 100%;
+	background-color:#dad7d9;
+	float: left;
+}
+
+
+ul a{
+	line-height: 40px;
+	color:#ff57e6;
+	display: block;
+	height: 30px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+ul li a:hover, .current{
+	background-color:#ff57e6;
+	color:#dad7d9;
+}
+
+#sidebar{
+	height:1000px;
+	width:35%;
+	float:	left;
+
+
+}
+
+#main{
+	width: 65%;
+	float: left;
+}
