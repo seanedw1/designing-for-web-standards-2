@@ -49,13 +49,84 @@ float:right;
 	background-repeat:no-repeat;
 }
 
-#nav{
-width:244px;
-margin-top:55px;
+#nav ul{
+		width:244px;
+	margin-top:55px;
 margin-left:25px;
-list-style-type:none;
+	}
+/* ---------------- Nav Styles -------------- */
+ul{
+background-image: url(../img/bg_nav.png);
+ 		background-repeat: no-repeat;
+ 		background-position: 0 488px;
+	list-style-type:none;
+	padding-left: 0;
+	overflow: hidden;
 }
 
+ 	 ul li{
+	float: left;
+	width: 100px;
+}
+
+	ul a{
+		list-style-type: none;
+	display: block;
+	height: 100px;
+}
+
+	ul a:hover{
+	background-position: 62px 0;
+}
+
+#process a{
+	background-position: 0 122px;	
+}
+
+#process a:hover{
+	background-position:  62px 0;	
+}
+
+#process a:active{
+	background-position: -100px -200px;	
+}
+
+#function a{
+	background-position:  0 -244px;	
+}
+
+#function a:hover{
+	background-position: 62px -244px;	
+}
+
+#function a:active{
+	background-position: -200px -200px;	
+	
+}
+
+#future a{
+	background-position: -300px 0;	
+}
+
+#future a:hover{
+	background-position: -300px -100px;	
+}
+
+#future a:active{
+	background-position: -300px -200px;	
+}
+
+#engage a{
+	background-position: -400px 0;	
+}
+
+#engage a:hover{
+	background-position: -400px -100px;	
+}
+
+#engage a:active{
+	background-position: -400px -200px;	
+}
 
 /*----- body -----*/
 
