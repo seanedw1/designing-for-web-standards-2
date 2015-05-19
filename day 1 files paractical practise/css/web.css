@@ -49,41 +49,41 @@ float:right;
 	background-repeat:no-repeat;
 }
 
-#nav ul{
-		width:244px;
-	margin-top:55px;
-margin-left:25px;
-	}
+
 /* ---------------- Nav Styles -------------- */
-ul{
-background-image: url(../img/bg_nav.png);
- 		background-repeat: no-repeat;
- 		background-position: 0 488px;
+
+#nav{
+	width: 244px;
+}
+
+#nav ul{
 	list-style-type:none;
 	padding-left: 0;
 	overflow: hidden;
 }
 
- 	 ul li{
-	float: left;
+ 	 #nav ul li{
+ 	 	display: block;
 	width: 100px;
 }
 
-	ul a{
-		list-style-type: none;
+	#nav ul a{
+		height: 31px;
+		background-image: url(../img/bg_nav.png);
+ 		background-repeat: no-repeat;
 	display: block;
 	height: 100px;
 }
 
-	ul a:hover{
+	#nav ul a:hover{
 	background-position: 62px 0;
 }
 
-#process a{
-	background-position: 0 122px;	
+#nav li #process a{
+	background-position: 0 -188px;
 }
 
-#process a:hover{
+#nav li#process a:hover{
 	background-position:  62px 0;	
 }
 

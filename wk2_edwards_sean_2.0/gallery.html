@@ -8,18 +8,23 @@
 <link href="css/mystyle.css" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">ElyseStyles</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Elyse styles</a>
     </div>
-    <div>
+    <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
         <li><a href="about.html"><span class="glyphicon glyphicon-user"></span>About</a></li>
-        <li><a href="services.html"><span class="glyphicon glyphicon-scissors"></span>Services</a></li>
+        <li><a href="services.html"><span class="glyphicon glyphicon-leaf"></span>Services</a></li>
         <li><a href="gallery.html"><span class="glyphicon glyphicon-scissors"></span>Gallery</a></li>
-        <li><a href="contact.html"><span class="glyphicon glyphicon-inbox"></span> Contact</a></li>
+        <li><a href="contact.html"><span class="glyphicon glyphicon-send"></span> Contact</a></li>
       </ul>
     </div>
   </div>
@@ -33,31 +38,31 @@
   <h2 class="text-center">Gallery</h2>         
   <div class="row">
     <div class="col-md-2">
-      <a href="img/jumbo1.jpg" class="thumbnail">
+      <a href="img/jumbo1.jpg" class="thumbnail" target="_blank">
         <img src="img/jumbo1.jpg" alt="" style="width:150px;height:150px">
         <p class="text-center">salon view</p>    
       </a>
     </div>
     <div class="col-md-2">
-      <a href="img/jumbo2.jpg" class="thumbnail">
+      <a href="img/jumbo2.jpg" class="thumbnail" target="_blank">
         <img src="img/jumbo2.jpg" alt="" style="width:150px;height:150px">
         <p class="text-center">salon view 2</p>    
       </a>
     </div>
     <div class="col-md-2">
-      <a href="img/hair1.jpg" class="thumbnail">
+      <a href="img/hair1.jpg" class="thumbnail" target="_blank">
         <img src="img/hair1.jpg" alt="" style="width:150px;height:150px">
         <p class="text-center">One very happy client.</p>
       </a>
     </div>
     <div class="col-md-2">
-      <a href="img/hair2.jpg" class="thumbnail">
+      <a href="img/hair2.jpg" class="thumbnail" target="_blank">
       <img src="img/hair2.jpg" alt="" style="width:150px;height:150px">
         <p class="text-center">angle 2</p>      
       </a>
     </div>
     <div class="col-md-2">
-      <a href="img/hair3.jpg" class="thumbnail">
+      <a href="img/hair3.jpg" class="thumbnail" target="_blank">
         <img src="img/hair3.jpg" alt="" style="width:150px;height:150px">
         <p class="text-center">angle 3</p>      
       </a>
@@ -65,31 +70,31 @@
   </div>
   <div class="row">
     <div class="col-md-2">
-      <a href="img/color1.jpg" class="thumbnail">      
+      <a href="img/color1.jpg" class="thumbnail" target="_blank">      
         <img src="img/color1.jpg" alt="" style="width:150px;height:150px">
         <p class="text-center">pravana color line</p>
       </a>
     </div>
 <div class="col-md-2">
-      <a href="img/redkin.jpg" class="thumbnail">      
+      <a href="img/redkin.jpg" class="thumbnail" target="_blank">      
         <img src="img/redkin.jpg" alt="" style="width:150px;height:150px">
         <p class="text-center">redken shampoo line</p>
       </a>
     </div>
     <div class="col-md-2">
-      <a href="img/paul.jpg" class="thumbnail">
+      <a href="img/paul.jpg" class="thumbnail" target="_blank">
         <img src="img/paul.jpg" alt="" style="width:150px;height:150px">
         <p class="text-center">Paul mitchell line</p>      
       </a>
     </div>
 <div class="col-md-2">
-      <a href="img/chi.jpg" class="thumbnail">
+      <a href="img/chi.jpg" class="thumbnail" target="_blank">
         <img src="img/chi.jpg" alt="" style="width:150px;height:150px">
         <p class="text-center">chi product line</p>      
       </a>
     </div>
 <div class="col-md-2">
-      <a href="img/nevo.png" class="thumbnail">
+      <a href="img/nevo.png" class="thumbnail" target="_blank">
         <img src="img/nevo.png" alt="" style="width:150px;height:150px">
         <p class="text-center">pravana color line</p>      
       </a>
@@ -108,5 +113,9 @@
  	<p class="text-center"><a href="">ElyseStyles&copy;</a><p>
  </div>
 	</div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

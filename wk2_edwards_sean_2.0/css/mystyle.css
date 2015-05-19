@@ -10,8 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-body {
-  padding-top:70px;
+body{
   margin: 0;
     background-image:url("../img/bk.png"); 
     margin-bottom: 30px;
@@ -39,6 +38,10 @@ width: 65%;
 .pink{
   color: #ff0080;
   text-align:center;
+}
+
+.pink2{
+  color: #ff0080;
 }
 
 #welcome{
@@ -4135,9 +4138,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-top-right-radius: 0;
 }
 .navbar {
+  line-height: 2px;
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -4924,15 +4927,18 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  max-height: 100%;
-  padding: 30px 15px;
-  margin-bottom: 30px;
+  background-image: url(../img/jumbo.jpg);
+   background-repeat:no-repeat;
+background-size:100%;
+height: 400px;
+  padding:  15px;
+  margin-bottom: 15px;
   background-color: #eee;
-  background-image:url("../img/jumbo.jpg");
-  background-size: cover;
   color:white;
-
 }
+.jumbotron img{
+}
+
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
