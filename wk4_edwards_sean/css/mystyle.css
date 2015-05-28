@@ -1,24 +1,24 @@
 body{
-	background-color: black;
+	background-color:#292E37;
 		font-family: helvitica;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #container{
 	overflow: auto;
-	border: 1px solid red;
 	margin:0 auto;
 	width:80%;
-	background-color: white;
+	background-color:#E8D9C5;
 }
 
-
+.center{
+	text-align: center;
+}
 /* nav section starts here */
 nav{
 	height: 83px;
-	background-color: black;
+	background-color:#ED472D;
 	width: 100%;
-	margin-bottom: 15px;
 }
 
 
@@ -89,36 +89,29 @@ table,td,th{
 
 
 /* table section ends here */
-
+hr{
+width: 70%;
+}
 
 /* form section starts here */
 
-#form{
-	float:right;
-	width:35%;
+form{
+	width:70%;
 	background-color:#ECC87A;
-	border:2px solid black;
-	border-radius:25px;
-	overflow:auto;
 	padding:5px;
-	margin-top:20px;
-	
+	margin: 0 auto;
 }
 
+form input{
+	width: 70%;
+}
 
+form fieldset{
+	width: 80%;
+}
 
 form :focus{
 	background-color:#f4ece0;
-}
-
-form :hover{
-	color:#9f4b59;
-}
-
-.colors{
-	background-color:#e0e3f4;
-	margin-bottom:10px;
-	border-radius:25px;
 }
 
 #submit{
@@ -139,7 +132,9 @@ form :hover{
 }
 
 
-
+h1{
+	text-align: center;
+}
 
 
 
@@ -181,21 +176,43 @@ div.desc {
   width: 120px;
   margin: 5px;
 }
+
+#gallery{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+#vid{
+	padding-left: 300px;
+}
+
+#hero{
+	color: white;
+	padding-top: 1px;
+	height: 400px;
+width:100%;
+	background-image: url(../img/to.jpg);
+}
 /* images section ends here */
 
 
 /* footer section starts here */
 
 footer{
+	overflow: auto;
 	clear: both;
-	height: 50px;
-	background-color: black;
+	height: 200px;
+	background-color:#ED472D;
 
 }
 
 footer p{
 	padding-top: 15px;
 	color: white;
+	text-align: center;
+}
+
+#follow{
 	text-align: center;
 }
 /* footer section ends here */
