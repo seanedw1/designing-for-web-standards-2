@@ -1,0 +1,78 @@
+body{
+background-color:#507eb9;
+
+}
+
+#wrapper{
+background-color: white;
+width:760px;
+margin: 0 auto;
+}
+
+
+
+#header{
+	color: white;
+	background-position:  100px;
+
+}
+
+#global{
+	background-image: url(../img/bg_header.jpg);
+	background-repeat: no-repeat;
+}
+
+#global_shadow{
+	background-image: url(../img/global_shadow.png);
+		background-repeat: no-repeat;
+
+}
+
+
+#intellectual_business_solutions {
+	background-image: url(../img/bg_intellectual_business_solutions.png);
+	background-repeat: no-repeat;
+	text-indent: -999px;
+}
+
+#map{
+	margin: 0 auto;
+	width:480px;
+	height: 480px;
+}
+
+#active{
+	color:#afe1f7;
+}
+
+
+
+#nav{
+
+}
+
+#nav a{
+text-decoration: none;
+color: #424242;
+}
+
+#nav a:hover{
+	background-color: black;
+
+}
+
+#nav li{
+	width: 205px;
+	list-style-type:none;
+	border-bottom: 1px solid black;
+}
+
+#quote{
+background-image: url();
+}
+
+#content{
+		background-image: url(../img/sprocket.gif) right top no-repeat;
+	margin-left: 270px;
+width: 270px;
+}
