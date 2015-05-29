@@ -5,12 +5,6 @@ body{
 	background-color: black;
 }
 
-container{
-	overflow: auto;
-	margin:0 auto;
-	width:80%;
-}
-
 .center{
 	text-align: center;
 }
@@ -41,7 +35,7 @@ nav ul li{
 nav a{
 text-align: center;
 	text-decoration: none;
-	color:white;
+color:white;
 	font-size: 20px;
 }
 
@@ -96,7 +90,7 @@ table,td,th{
 
 /* table section ends here */
 hr{
-width: 70%;
+width:15%;
 }
 
 /* form section starts here */
@@ -106,6 +100,8 @@ form{
 	background-color:#ECC87A;
 	padding:5px;
 	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 form input{
@@ -132,10 +128,10 @@ form :focus{
 /* form section ends here */
 
 #content{
+	overflow: auto;
 	background-color: white;
 	color: black;
 	padding-top: 1px;
-	height: 500px;
 width:100%;
 }
 
@@ -233,3 +229,32 @@ footer p{
 	text-align: center;
 }
 /* footer section ends here */
+
+
+/* media quaries starts here */
+
+@media screen and (min-width: 800px ) and (max-width: 1010px){
+		h1{width: 100%;}
+		nav ul li{color:#41deac;}
+
+}
+
+
+@media only screen and (min-width: 400px ) and (max-width: 800px){
+			h1{width: 100%;}
+			#container{}
+			#container div{}
+
+
+}
+
+@media screen and (max-width: 400px ){
+	h1{width: 100%;}
+	#container{}
+			#container div{}
+			footer{ width: 100%; background-color: black; margin-top: 25px; text-align: center; color:#41deac;}
+			footer p{ padding-top:50px; color:#41deac;}
+			nav ul li a{color:#41deac;}
+			nav ul	{width: 100%;}
+					
+}

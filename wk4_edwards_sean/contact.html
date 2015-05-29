@@ -4,13 +4,13 @@
 <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contact sean</title>
+<title>Contact sean| Web Design & Development |</title>
 <link href="css/mystyle.css" rel="stylesheet">
 </head>
 <body>
 <header>
 <nav>
-	<a href="index.html"><img src="img/slogo.png" id="logo"></a>
+	<a href="index.html"><img src="img/slogo.png" id="logo" alt=""></a>
 <ul>
 <li><a href="index.html" class="seperate">Home</a></li>
 <li><a href="works.html" class="seperate">works</a></li>
@@ -21,11 +21,47 @@
 </nav>
 </header>
 <div id="content">
+<form action+"contact.php" method="post" id="comments_form">
 
+	<div class="row">
+    <div class="label">Your Name</div>
+    <div class="input">
+    <input type="text" id="fullname" class="detail" name="fullname" value=" " />    </div>
+    
+    <div class="context">e.g. John Smith or Jane Doe 
+    </div>
+    </div>
+    
+    
+    
+
+	<div class="row">
+    <div class="label">Your Email</div>
+    <div class="input">
+    <input type="text" id="email" class="detail" name="email" value="" />    </div>
+    
+    <div class="context">We will not share your email with any or spam you with messages either.
+    </div>
+    </div>
+
+
+
+	<div class="row">
+    <div class="label">Your Message</div>
+    <div class="input2">
+    <textarea id="comment" name="comment" class="mess">    </textarea>     
+    
+    
+    </div>
+    </div>
+
+	<div class="submit">
+    <input type="submit" id="submit" name="submit" value="Send Message" />
+	</div>
+
+</form>
 </div>
 <footer>
-	<p>Sean Edwards designs© 2015 - ALL RIGHTS RESERVED.</p>
-	<hr>
 	<div id="follow" class="text-center">
  		<p>Follow Me</p>
  		<a href="https://www.facebook.com/sean.ed.524" target="_blank"><img src="img/fb.png" alt=""></a>
@@ -33,7 +69,8 @@
  		<a href="https://instagram.com/seanedw1" target="_blank"><img src="img/instagram.png" alt=""></a>
  		<a href="https://www.pinterest.com/" target="_blank"><img src="img/pinterest.png" alt=""></a>	    	
 	</div> 
-	
+	<hr>
+	<p>Edwards Media© 2015</p>
 </footer>
 </body>
 </html>
