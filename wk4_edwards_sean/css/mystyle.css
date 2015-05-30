@@ -8,11 +8,28 @@ body{
 .center{
 	text-align: center;
 }
+
+
+
+#content{
+	overflow: auto;
+	background-color: white;
+	color: black;
+	padding-top: 1px;
+width:100%;
+}
+
+hr{
+width:15%;
+}
+
 /* nav section starts here */
 
 header{
 background-color: black;
 	max-width: 100%;
+	max-width: 100%;
+	overflow: auto;
 }
 
 
@@ -36,7 +53,7 @@ nav a{
 text-align: center;
 	text-decoration: none;
 color:white;
-	font-size: 20px;
+	font-size: 1.250em;
 }
 
 .seperate{
@@ -53,7 +70,7 @@ color:white;
 table{
 	margin: 0 auto;
 	margin-top:20px;
-	width:60%;
+	max-width:100%;
 	border:2px solid black;
 	border-collapse: collapse;
 	
@@ -89,15 +106,14 @@ table,td,th{
 
 
 /* table section ends here */
-hr{
-width:15%;
-}
 
 /* form section starts here */
 
 form{
-	width:70%;
-	background-color:#ECC87A;
+	padding-top: 5%;
+	max-width:70%;
+	background-color:#E8D9C5;
+	border-radius: 20px;
 	padding:5px;
 	margin: 0 auto;
 	margin-top: 50px;
@@ -105,7 +121,15 @@ form{
 }
 
 form input{
-	width: 70%;
+width: 260px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 7px 8px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px 5px 5px 5px;
+  background: #E9E9E9;
+  border: 1px solid #CCC;
 }
 
 form fieldset{
@@ -117,34 +141,44 @@ form :focus{
 }
 
 #submit{
-	margin-top:40px;
+	margin-top:15%;
 	display:block;
 	margin:0 auto;
 	border:2px solid black;
+	background-color: #ED472D;
+	margin-bottom: 5%;
+	color: white;
 
 }
 
+.label{
+text-align: center;
+}
+
+.mess{
+	width: 50%;
+  max-width: 100%;
+  height: 280px;
+  overflow: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 7px 8px;
+  line-height: 1em;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px 5px 5px 5px;
+  background: #E9E9E9;
+  border: 1px solid #CCC;
+  margin-bottom: 5%;
+}
 
 /* form section ends here */
 
-#content{
-	overflow: auto;
-	background-color: white;
-	color: black;
-	padding-top: 1px;
-width:100%;
-}
-
-
 
 /* images section starts here */
-.img{
-	max-width: 100%;
-	display: block;
-	margin: 0 auto;
-}
 
 #aboutim{
+	margin-top: 2%;
 	max-width: 100%;
 	float: left;
 	padding-left: 10px;
@@ -155,8 +189,8 @@ width:100%;
 div.img {
     margin: 5px;
     padding: 5px;
-    height: auto;
     width: auto;
+    height: auto;
     float: left;
     text-align: center;
 }	
@@ -165,6 +199,8 @@ div.img img {
 	border: 1px solid black;
     display: inline;
     margin: 5px;
+     max-height: 100%;
+    max-width: 100%;
 }
 
 div.img a:hover img {
@@ -179,29 +215,41 @@ div.desc {
 
 #gallery{
 	margin: 0 auto;
-	width: 90%;
+	max-width: 90%;
 }
 
 #vid{
-	padding-left: 300px;
+	padding-left: 15%;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 #hero{
+	padding-top: 83px;
 	color: white;
 	padding-top: 1px;
+	max-width:100%;
 	height: 500px;
-width:100%;
 	background-image: url(../img/to.jpg);
-	background-size: cover;
+	background-size:cover;
 }
 
 
 #hero p{
-	padding-left: 30px;
-	font-size: 65pt;
+	padding-left: 10%;
+	font-size: 5em;
 }
 
+#hero h3{
+	padding-left: 10%;
+	font-size: 1em;
+}
+.des{
+	font-size:25px;
+} 
+
 #logo{
+	max-width: 100%;
 	float:left;
 	padding-left: 30px;
 	padding-top: 10px;
@@ -214,13 +262,13 @@ footer{
 	max-width: 100%;
 	overflow: auto;
 	clear: both;
-	height: 200px;
+	max-height:100%;
 	background-color:black;
 
 }
 
 footer p{
-	padding-top: 15px;
+	padding-top: 2%;
 	color: white;
 	text-align: center;
 }
@@ -236,14 +284,21 @@ footer p{
 @media screen and (min-width: 800px ) and (max-width: 1010px){
 		h1{width: 100%;}
 		nav ul li{color:#41deac;}
-
+table{max-width:100%;}
 }
 
 
 @media only screen and (min-width: 400px ) and (max-width: 800px){
-			h1{width: 100%;}
-			#container{}
-			#container div{}
+			
+footer{ max-width: 100%; background-color: black; text-align: center;}
+			footer p{ padding-top:50px;}
+			nav ul li a{font-size: 1em;}
+			nav ul	{max-width: 100%;}
+					#logo{max-width: 100%;}
+			header{max-width: 100%; max-height: 100%;}
+			#hero{max-height: 100%;}
+			#hero p{font-size:3em;}
+			#logo{max-width:40%;}
 
 
 }
@@ -251,10 +306,19 @@ footer p{
 @media screen and (max-width: 400px ){
 	h1{width: 100%;}
 	#container{}
-			#container div{}
-			footer{ width: 100%; background-color: black; margin-top: 25px; text-align: center; color:#41deac;}
-			footer p{ padding-top:50px; color:#41deac;}
-			nav ul li a{color:#41deac;}
-			nav ul	{width: 100%;}
-					
+			#aboutim{max-width: 40%;padding-right: 5%;}
+			footer{ max-width: 100%; background-color: black; text-align: center;}
+			footer p{ padding-top:50px;}
+			nav ul li a{font-size: 1em;float: left;}
+			nav ul	{max-width: 100%;}
+					#logo{max-width: 100%;}
+			header{max-width: 100%; max-height: 100%;}
+			#hero{max-height: 100%;}
+			#hero p{font-size:3em;}
+			#line{font-size:1em;}
+			#gallery{max-width: 40%}
+			#img{max-width: 100%}
+			#logo{max-width:30%;}
+			#vid{padding-left: 5%; max-width: 50%; min-height:50%;}
+
 }

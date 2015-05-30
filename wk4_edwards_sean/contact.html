@@ -10,7 +10,7 @@
 <body>
 <header>
 <nav>
-	<a href="index.html"><img src="img/slogo.png" id="logo" alt=""></a>
+<a href="index.html"><img src="img/slogo.png" id="logo" alt=""></a>
 <ul>
 <li><a href="index.html" class="seperate">Home</a></li>
 <li><a href="works.html" class="seperate">works</a></li>
@@ -21,44 +21,37 @@
 </nav>
 </header>
 <div id="content">
-<form action+"contact.php" method="post" id="comments_form">
+<form method="post">
+<div class="row">
+ <div class="label">First Name:</div>
+ <div class="input">
+  <input type="text" id="fullname" class="detail" name="fullname" value="" placeholder="required" required="required"/>
+  </div>
+ </div>
+  <div class="label">Last Name:</div>
+  <div class="input">
+  <input type="text" id="lastname" class="detail" name="lastname" value="" placeholder="required" required="required"/> 
+</div>
 
-	<div class="row">
-    <div class="label">Your Name</div>
-    <div class="input">
-    <input type="text" id="fullname" class="detail" name="fullname" value=" " />    </div>
-    
-    <div class="context">e.g. John Smith or Jane Doe 
-    </div>
-    </div>
-    
-    
-    
-
-	<div class="row">
-    <div class="label">Your Email</div>
-    <div class="input">
-    <input type="text" id="email" class="detail" name="email" value="" />    </div>
-    
-    <div class="context">We will not share your email with any or spam you with messages either.
-    </div>
-    </div>
-
-
-
-	<div class="row">
-    <div class="label">Your Message</div>
-    <div class="input2">
-    <textarea id="comment" name="comment" class="mess">    </textarea>     
-    
-    
-    </div>
-    </div>
-
-	<div class="submit">
-    <input type="submit" id="submit" name="submit" value="Send Message" />
-	</div>
-
+<div class="row">
+<div class="label">Email:</div>
+<div class="input">
+<input type="text" id="email" class="detail" name="email" value="" placeholder="required" required="required"/>    </div>
+</div>
+<div class="row">
+<div class="label">Website:</div>
+<div class="input">
+<input type="text" id="website" class="detail" name="email" value="" />    </div>
+</div>
+<div class="row">
+<div class="label">Your Message</div>
+<div class="input2">
+<textarea id="comment" name="comment" class="mess">    </textarea>  
+</div>
+</div>
+<div class="submit">
+<input type="submit" id="submit" name="submit" value="Send Message" />
+</div>
 </form>
 </div>
 <footer>
