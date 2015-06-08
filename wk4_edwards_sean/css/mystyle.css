@@ -213,6 +213,7 @@ div.desc {
   margin: 5px;
 }
 
+
 #gallery{
 	margin: 0 auto;
 	max-width: 90%;
@@ -242,7 +243,7 @@ div.desc {
 
 #hero h3{
 	padding-left: 10%;
-	font-size: 1em;
+	font-size: 3em;
 }
 .des{
 	font-size:25px;
@@ -317,7 +318,7 @@ footer{ max-width: 100%; background-color: black; text-align: center;}
 			#hero p{font-size:3em;}
 			#line{font-size:1em;}
 			#gallery{max-width: 40%}
-			#img{max-width: 100%}
+			#img{max-width: 100%;min-height: 100%;}
 			#logo{max-width:30%;}
 			#vid{padding-left: 5%; max-width: 50%; min-height:50%;}
 
